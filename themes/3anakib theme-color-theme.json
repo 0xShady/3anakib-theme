@@ -349,7 +349,7 @@
 		  "name": "comment",
 		  "scope": "comment.line.double-slash,comment.block.documentation",
 		  "settings": {
-			"fontStyle": "normal"
+			"fontStyle": "italic bold"
 		  }
 		},
 		{
@@ -762,7 +762,6 @@
 		  "scope": "entity.other.attribute-name.id",
 		  "settings": {
 			"foreground": "#52ADF2",
-			"fontStyle": "normal"
 		  }
 		},
 		{
@@ -770,7 +769,6 @@
 		  "scope": "entity.other.attribute-name.class.css",
 		  "settings": {
 			"foreground": "#D8985F",
-			"fontStyle": "normal"
 		  }
 		},
 		{
@@ -966,7 +964,6 @@
 		  "name": "Illegal",
 		  "scope": "invalid.illegal",
 		  "settings": {
-			"background": "#e05252",
 			"foreground": "#FFFFFF"
 		  }
 		},
@@ -974,7 +971,6 @@
 		  "name": "Broken",
 		  "scope": "invalid.broken",
 		  "settings": {
-			"background": "#e05252",
 			"foreground": "#FFFFFF"
 		  }
 		},
@@ -982,7 +978,6 @@
 		  "name": "Deprecated",
 		  "scope": "invalid.deprecated",
 		  "settings": {
-			"background": "#d27b53",
 			"foreground": "#FFFFFF"
 		  }
 		},
@@ -990,7 +985,6 @@
 		  "name": "Unimplemented",
 		  "scope": "invalid.unimplemented",
 		  "settings": {
-			"background": "#747369",
 			"foreground": "#FFFFFF"
 		  }
 		},
