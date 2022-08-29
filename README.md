@@ -1,16 +1,10 @@
 # 3anakib README
 
-## Working with Markdown
+## Why 3anakib
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Most of themes on the marketplace are mainly oriented to Java script, html, css, python...
+<br>
+Which leaves low level languages with no good syntax hilights, 3anakib serves this purpose while keeping the good fancy javascript look
+<br>
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+And this is your Phantom Troupe tatto since you probably don't have one, join the other 3anakib

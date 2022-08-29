@@ -1,8 +1,22 @@
 {
   "name": "3anakib",
   "displayName": "3anakib",
-  "description": "3anakib theme",
-  "version": "0.0.1",
+  "description": "3anakib theme, a theme for every language out there",
+  "version": "1.0.0",
+  "publisher": "achrafelfadili",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xShady/3anakib-theme.git"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "3anakib",
+    "spider",
+    "shell theme",
+    "python theme",
+    "java script theme"
+  ],
   "engines": {
     "vscode": "^1.70.0"
   },
