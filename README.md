@@ -8,7 +8,7 @@
 [![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-green)](https://vscode.dev/theme/achrafelfadili.3anakib)
 [![Version](https://vsmarketplacebadge.apphb.com/version/achrafelfadili.3anakib.svg)](https://marketplace.visualstudio.com/items?itemName=achrafelfadili.3anakib)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/achrafelfadili.3anakib.svg)](https://marketplace.visualstudio.com/items?itemName=achrafelfadili.3anakib)
-[![Donate](https://img.shields.io/badge/donate-now-Green.svg)](https://www.paypal.me/achrafelfadili)
+[![Donate](https://img.shields.io/badge/donate-now-Green.svg)](https://paypal.me/achrafelfadili?country.x=MA&locale.x=en_US)
 
 [![Stars](https://img.shields.io/github/stars/0xShady/3anakib-theme)](https://github.com/0xShady/3anakib-theme/stargazers)
 [![Forks](https://img.shields.io/github/forks/0xShady/3anakib-theme)](https://github.com/0xShady/3anakib-theme/network/members)
