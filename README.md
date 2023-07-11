@@ -87,3 +87,4 @@ The early 3anakib:
 * [@joroh](https://github.com/0xJoroh)
 * [@regular_nassim](https://github.com/nassimabb)
 * [@l9irch](https://github.com/ELORCHI)
+* [@jesus](https://github.com/myluda12)
