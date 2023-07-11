@@ -85,3 +85,5 @@ The early 3anakib:
 * [@dopamine](https://github.com/0xDopamine)
 * [@floki](https://github.com/floki61)
 * [@joroh](https://github.com/0xJoroh)
+* [@regular_nassim](https://github.com/nassimabb)
+* [@l9irch](https://github.com/ELORCHI)
