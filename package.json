@@ -1,8 +1,8 @@
 {
   "name": "3anakib",
   "displayName": "3anakib",
-  "description": "3anakib theme, a theme for every language out there",
-  "version": "1.0.1",
+  "description": "3anakib theme, a theme for every language out there. Green original and a Nord-inspired darker variant, with optional Zen mode and Spotlight-style palette.",
+  "version": "2.0.0",
   "publisher": "achrafelfadili",
   "repository": {
     "type": "git",
@@ -16,7 +16,10 @@
     "spider",
     "shell theme",
     "python theme",
-    "java script theme"
+    "java script theme",
+    "nord",
+    "nord theme",
+    "zen mode"
   ],
   "engines": {
     "vscode": "^1.70.0"
