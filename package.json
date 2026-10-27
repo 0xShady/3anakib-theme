@@ -24,12 +24,21 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "build": "node scripts/build-themes.mjs",
+    "vscode:prepublish": "npm run build"
+  },
   "contributes": {
     "themes": [
       {
         "label": "3anakib theme",
         "uiTheme": "vs-dark",
         "path": "./themes/3anakib theme-color-theme.json"
+      },
+      {
+        "label": "3anakib darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/3anakib darker-color-theme.json"
       }
     ]
   }
