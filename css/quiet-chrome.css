@@ -1,0 +1,15 @@
+.monaco-workbench .part.titlebar .action-item:has([aria-label^="Open in Agents Window"]),
+.monaco-workbench .part.titlebar .action-item[aria-label^="Open in Agents Window"] {
+  display: none !important;
+}
+
+.monaco-workbench .part.statusbar .statusbar-item:is(
+  [id^="icrawl.discord-vscode"],
+  [id^="ms-vsliveshare.vsliveshare"],
+  [id^="ritwickdey.LiveServer"],
+  [id^="esbenp.prettier-vscode"],
+  [id="status.editor.screenReaderMode"],
+  [id="status.notifications"]
+) {
+  display: none !important;
+}

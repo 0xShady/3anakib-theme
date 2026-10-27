@@ -1,0 +1,131 @@
+.monaco-workbench {
+  --anakib-accent: var(--vscode-pickerGroup-foreground, #08e272);
+  --anakib-palette-bg: color-mix(in srgb, var(--vscode-quickInput-background, #0a0711) 82%, transparent);
+  --anakib-hairline: color-mix(in srgb, var(--vscode-foreground, #fff) 9%, transparent);
+  --anakib-muted: var(--vscode-descriptionForeground, #8a919c);
+}
+
+.monaco-workbench:has(.quick-input-widget:not([style*="display: none"]))::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  z-index: 100;
+  pointer-events: none;
+}
+
+.quick-input-widget {
+  top: 22vh !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 680px !important;
+  max-width: calc(100vw - 48px) !important;
+  margin-left: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  border-radius: 14px !important;
+  border: 1px solid var(--anakib-hairline) !important;
+  background: var(--anakib-palette-bg) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 30px 80px rgba(0, 0, 0, 0.7),
+    0 0 0 0.5px rgba(0, 0, 0, 0.8) !important;
+  backdrop-filter: blur(40px) saturate(180%);
+}
+
+.quick-input-widget .quick-input-header {
+  padding: 10px 16px !important;
+  border-bottom: 1px solid var(--anakib-hairline);
+}
+.quick-input-widget .quick-input-and-message,
+.quick-input-widget .quick-input-header,
+.quick-input-widget .monaco-inputbox,
+.quick-input-widget .monaco-inputbox > .ibwrapper > .input {
+  background: transparent !important;
+}
+.quick-input-widget .quick-input-filter {
+  align-items: center;
+}
+.quick-input-widget .quick-input-filter::before {
+  content: "\ea6d";
+  font: normal normal normal 18px/1 codicon;
+  color: var(--anakib-muted);
+  margin-right: 10px;
+}
+.quick-input-widget .monaco-inputbox,
+.quick-input-widget .monaco-inputbox.synthetic-focus {
+  border: none !important;
+  outline: none !important;
+  padding: 0 !important;
+}
+.quick-input-widget .monaco-inputbox > .ibwrapper > .input {
+  font-size: 17px !important;
+  line-height: 28px !important;
+  height: 28px !important;
+  padding: 0 !important;
+}
+.quick-input-widget .monaco-inputbox > .ibwrapper > .input::placeholder {
+  color: var(--anakib-muted) !important;
+  opacity: 0.8;
+}
+.quick-input-widget .quick-input-visible-count,
+.quick-input-widget .quick-input-count {
+  display: none !important;
+}
+.quick-input-widget .quick-input-progress.monaco-progress-container {
+  height: 1px !important;
+}
+
+.quick-input-widget .quick-input-list,
+.quick-input-widget .monaco-list,
+.quick-input-widget .monaco-list .monaco-list-rows,
+.quick-input-widget .monaco-list-row {
+  background: transparent !important;
+}
+.quick-input-widget .quick-input-list {
+  padding: 6px 8px !important;
+
+  zoom: 1.2;
+}
+.quick-input-widget .monaco-list-row {
+  border-radius: 6px !important;
+  padding: 0 6px !important;
+}
+.quick-input-widget .monaco-list-row.focused,
+.quick-input-widget .monaco-list:focus .monaco-list-row.focused {
+  background: var(--vscode-quickInputList-focusBackground) !important;
+  outline: none !important;
+}
+.quick-input-widget .monaco-list-row:hover:not(.focused) {
+  background: color-mix(in srgb, var(--vscode-foreground, #fff) 4%, transparent) !important;
+}
+.quick-input-widget .monaco-list-row .label-description,
+.quick-input-widget .monaco-list-row .quick-input-list-separator {
+  color: var(--anakib-muted) !important;
+  opacity: 1 !important;
+}
+.quick-input-widget .monaco-list-row .highlight {
+  color: var(--anakib-accent) !important;
+  font-weight: 600 !important;
+}
+
+.quick-input-widget .quick-input-list-separator {
+  font-size: 11px !important;
+  letter-spacing: 0.02em;
+}
+
+.quick-input-widget .monaco-list-row:not(.focused) .quick-input-list-entry-action-bar {
+  visibility: hidden;
+}
+
+.quick-input-widget::after {
+  content: "↵  open      ↑↓  navigate      esc  close";
+  display: block;
+  white-space: pre;
+  padding: 7px 16px;
+  font-size: 11px;
+  color: var(--anakib-muted);
+  border-top: 1px solid var(--anakib-hairline);
+  background: color-mix(in srgb, var(--vscode-foreground, #fff) 2%, transparent);
+}

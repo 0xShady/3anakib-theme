@@ -30,7 +30,10 @@
   },
   "main": "./extension.js",
   "activationEvents": [
-    "onCommand:3anakib.toggleZen"
+    "onStartupFinished",
+    "onCommand:3anakib.toggleZen",
+    "onCommand:3anakib.chooseCss",
+    "onCommand:3anakib.removeCss"
   ],
   "contributes": {
     "themes": [
@@ -49,6 +52,16 @@
       {
         "command": "3anakib.toggleZen",
         "title": "Toggle Zen Mode",
+        "category": "3anakib"
+      },
+      {
+        "command": "3anakib.chooseCss",
+        "title": "Choose CSS Extras (Spotlight palette, Monospace UI…)",
+        "category": "3anakib"
+      },
+      {
+        "command": "3anakib.removeCss",
+        "title": "Remove CSS Extras",
         "category": "3anakib"
       }
     ],
