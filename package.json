@@ -28,6 +28,10 @@
     "build": "node scripts/build-themes.mjs",
     "vscode:prepublish": "npm run build"
   },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onCommand:3anakib.toggleZen"
+  ],
   "contributes": {
     "themes": [
       {
@@ -39,6 +43,20 @@
         "label": "3anakib darker",
         "uiTheme": "vs-dark",
         "path": "./themes/3anakib darker-color-theme.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "3anakib.toggleZen",
+        "title": "Toggle Zen Mode",
+        "category": "3anakib"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "3anakib.toggleZen",
+        "key": "ctrl+alt+z",
+        "mac": "cmd+alt+z"
       }
     ]
   }
