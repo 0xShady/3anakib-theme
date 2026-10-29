@@ -1,8 +1,8 @@
 {
   "name": "3anakib",
   "displayName": "3anakib",
-  "description": "3anakib theme, a theme for every language out there",
-  "version": "1.0.1",
+  "description": "3anakib theme, a theme for every language out there. Green original and a Nord-inspired darker variant, with optional Zen mode and Spotlight-style palette.",
+  "version": "2.0.0",
   "publisher": "achrafelfadili",
   "repository": {
     "type": "git",
@@ -16,7 +16,10 @@
     "spider",
     "shell theme",
     "python theme",
-    "java script theme"
+    "java script theme",
+    "nord",
+    "nord theme",
+    "zen mode"
   ],
   "engines": {
     "vscode": "^1.70.0"
@@ -24,12 +27,53 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build-themes.mjs",
+    "vscode:prepublish": "npm run build"
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:3anakib.toggleZen",
+    "onCommand:3anakib.chooseCss",
+    "onCommand:3anakib.removeCss"
+  ],
   "contributes": {
     "themes": [
       {
         "label": "3anakib theme",
         "uiTheme": "vs-dark",
         "path": "./themes/3anakib theme-color-theme.json"
+      },
+      {
+        "label": "3anakib darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/3anakib darker-color-theme.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "3anakib.toggleZen",
+        "title": "Toggle Zen Mode",
+        "category": "3anakib"
+      },
+      {
+        "command": "3anakib.chooseCss",
+        "title": "Choose CSS Extras (Spotlight palette, Monospace UI…)",
+        "category": "3anakib"
+      },
+      {
+        "command": "3anakib.removeCss",
+        "title": "Remove CSS Extras",
+        "category": "3anakib"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "3anakib.toggleZen",
+        "key": "ctrl+alt+z",
+        "mac": "cmd+alt+z"
       }
     ]
   }

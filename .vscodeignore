@@ -2,3 +2,7 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+scripts/**
+.dev-profile/**
+themes/variants/**
+.claude/**
