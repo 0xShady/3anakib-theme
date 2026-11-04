@@ -2,6 +2,12 @@
 
 All notable changes to the "3anakib" extension are documented in this file.
 
+## [2.0.2]
+
+### Changed
+
+- Updated the Marketplace keywords and the 3anakib darker description in the README.
+
 ## [2.0.1]
 
 ### Changed
