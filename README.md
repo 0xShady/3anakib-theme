@@ -40,7 +40,7 @@ Then pick a theme with `Preferences: Color Theme`. Requires VS Code 1.70 or newe
 | Theme | Look |
 | --- | --- |
 | **3anakib theme** | The original: green accents on a deep purple-black background. |
-| **3anakib darker** | Near-black blue backgrounds, Nord-inspired accents and brighter syntax colors. |
+| **3anakib darker** | Near-black blue backgrounds, cool blue accents and brighter syntax colors. |
 
 ![3anakib darker](./images/darker.jpg)
 
