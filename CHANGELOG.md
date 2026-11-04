@@ -7,7 +7,7 @@ All notable changes to the "3anakib" extension are documented in this file.
 ### Changed
 
 - Reworded the Marketplace description.
-- Releases are now published from GitHub Actions on version tags.
+- Releases are now published from GitHub Actions when a GitHub Release is published.
 
 ## [2.0.0]
 
