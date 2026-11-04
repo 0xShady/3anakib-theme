@@ -6,3 +6,4 @@ scripts/**
 .dev-profile/**
 themes/variants/**
 .claude/**
+.github/**
